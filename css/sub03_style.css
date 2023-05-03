@@ -1,0 +1,260 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+ul, ol{list-style: none;}
+a{color: #000; text-decoration: none;}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 1500px;
+}
+
+/* header/banner */
+#header_wrap{
+    height: 1248px;
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    background-color: rgb(0, 0, 0, 0.57);
+    width: 100%;
+    height: 63px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.header_margin{
+    width: 1320px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-top: 13px;
+}
+.gnb{
+    float: right;
+}
+.gnb li{
+    float: left;
+}
+.gnb li a{
+    display: block;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 20px 15px 0 15px;
+    padding: 10px 15px 0 15px;
+}
+.gnb li.on a, .gnb li a:hover{
+    color: #fff;
+}
+.banner_wrap{
+    height: 1248px;
+    background: url(../images/sub_03/bg.jpg) no-repeat top center;
+    text-align: center;
+    position: relative;
+}
+.title{
+    font-size: 90px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 370px;
+}
+.museum_01{
+    width: 1319px;
+    height: 684px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -670px;
+    z-index: 2;
+}
+.museum_01_line{
+    width: 1320px;
+    height: 680px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -650px;
+}
+
+
+/* container */
+#container{
+    height: 2027px;
+    width: 1320px;
+    margin: 80px auto;
+}
+.content li{
+    float: left;
+    width: 418px;
+    height: 418px;
+    overflow: hidden;
+    margin-bottom: 118px;
+    position: relative;
+}
+.content li img{
+    width: 100%;
+    height: 100%;
+}
+.content li:nth-child(2){
+    margin: 0 33px;
+}
+.content li:nth-child(5){
+    margin: 0 33px;
+}
+.content li:nth-child(8){
+    margin: 0 33px;
+}
+.content li:nth-child(10){
+    margin-bottom: 0;
+}
+.content li:nth-child(11){
+    margin: 0 33px;
+}
+.content li:nth-child(2){
+    margin-bottom: 0;
+}
+.content li:hover .text_box{
+    transform: translateX(0px);
+    transition: transform 1s;
+}
+.img_box{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 418px;
+}
+.text_box{
+    width: 209px;
+    height: 418px;
+    background-color: #1b1b1b;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 100px 0 0 30px;
+    box-sizing: border-box;
+    transform: translateX(209px);
+}
+.text_b{
+    font-weight: 500;
+}
+.text_t{
+    font-weight: 100;
+    margin: 30px 0 20px 0;
+}
+.text_l{
+    font-weight: 300;
+    margin: 30px 0 20px 0;
+}
+
+
+/* footer */
+#footer_wrap{
+    height: 308px;
+    background-color: #000;
+    margin-top: 175px;
+}
+.footer{
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+}
+.vertical_logo{
+    float: left;
+}
+.footer_text{
+    float: left;
+    padding-left: 150px;
+    
+}
+.footer_gnb{
+    height: 30px;
+}
+.footer_gnb li{
+    float: left;
+}
+.footer_gnb li a{
+    display: block;
+    margin-right: 130px;
+    opacity: 0.6;
+}
+.footer_gnb li a:hover{
+    opacity: 1;
+}
+.footer_util{
+    clear: both;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.footer_util li{
+    float: left;
+}
+.footer_util li a{
+    display: block;
+    margin-right: 80px;
+    opacity: 0.6;
+}
+.footer_util li a:hover{
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+.footer_text2{
+    clear: both;
+}
+.footer_text2 li{
+    float: left;
+    margin: 35px 163px 0 0;
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+.footer_text2 li:nth-child(2){
+    margin: 35px 0;
+}
+.footer_text ul li a{
+    display: block;
+    color: #fff;
+}
+.footer_icon{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.footer_icon li{
+    float: left;
+}
+.footer_icon li a{
+    display: block;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.footer_icon li a:hover{
+    opacity: 1;
+}
+
+
+/* top btn */
+.top_btn {
+    width: 96px;
+    height: 96px;
+    background-color: #000;
+    border-radius: 250px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 80px;
+    bottom: 30px;
+    text-align: center;
+    z-index: 9;
+    cursor: pointer;
+}
+.top_btn a{
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}

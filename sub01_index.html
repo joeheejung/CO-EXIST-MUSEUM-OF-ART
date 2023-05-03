@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>CO-EXIST MUSEUM OF ART_ABOUT US</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sub01_style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/sub01_script.js"></script>
+</head>
+<body>
+    <div id="header_wrap"> <!-- 높이 -->
+        <div class="header"> <!-- position -->
+            <div class="header_margin">
+                <h1 class="logo"> <!-- 왼쪽 정렬 -->
+                    <a href="index.html"><img src="images/header/logo.png" alt="logo"></a>
+                </h1>
+                <ul class="gnb"> <!-- 오른쪽 정렬 -->
+                    <li class="on"><a href="sub01_index.html">ABOUT US</a></li>
+                    <li><a href="sub02/sub02_index.html">EXHIBITION</a></li>
+                    <li><a href="sub03_index.html">COLLECTION</a></li>
+                    <li><a href="sub04/sub04_index.html">SHOP</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner_wrap">
+            <video src="media/visitGuideMovie.mp4" type="video/mp4" autoplay loop muted width="713" height="855" webkit-playsinline="webkit-playsinline" playsinline="playsinline"></video>
+            <img src="images/sub_01/bg.png" alt="bg" class="banner_bg">
+            <div class="banner"> <!-- 가운데 정렬/text-align:center -->
+                <div class="text_box">
+                    <h1 class="title">
+                        ABOUT US
+                    </h1>
+                    <p class="small">
+                        CO-EXIST MUSEUM
+                    </p>
+                    <p class="regular_text">
+                        자연과 생물, 예술 <br>
+                        아름답고 무용한 것들이 공존할 때 <br>
+                        좋은 작품이 탄생한다.
+                    </p>
+                    <p class="text_22">
+                        좋은 작품은 공존할 때 탄생한다는 신념.
+                    </p>
+                    <p class="text_22">
+                        어디에서도 볼 수 없는 작품을 전시합니다. <br>
+                        모두가 공존하는 작품을 선정합니다. <br>
+                        작품을 통하여 즐거움으로 공존하는 길을 제시합니다.
+                    </p>
+                    <p class="text_22">
+                        공존하는 미술관은 작품의 힘을 믿습니다.
+                    </p>
+                </div>
+                <div class="co-exist_line">
+                    <img src="images/sub_01/co-exist line.png" alt="line">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section1_wrap">
+        <div class="section1">
+            <ul	id="box1">
+                <li	class="tap tablink opacity" onclick="openBoard(event,'Board01')">MUSEUM OVERVIEW</li>
+                <li	class="tap tablink" onclick="openBoard(event,'Board02')">VISIT</li>
+                <li	class="tap tablink" onclick="openBoard(event,'Board03')">INFORMATION</li>
+            </ul>							
+            <div id="Board01"	class="box1_1	board"> <!-- background image -->
+                <div class="overview"> <!-- 가운데 정렬 -->
+                    <div class="brandmark"> <!-- 높이 -->
+                        <p class="title2">
+                            BRAND MARK
+                        </p>
+                        <div class="cema"> <!-- 높이 -->
+                            <img src="images/sub_01/museum_overview/logo.png" alt="logo"> <!-- float left -->
+                            <p> <!-- float left -->
+                                CO-EXIST MUSEUM OF ART(공존하는 미술관)의 약자인 <br>
+                                CEMA를 심볼로 표현했습니다.
+                            </p>
+                        </div>
+                        <ul class="explain">
+                            <li> <!-- float left/ background color/ box shadow:hover/너비, 높이 -->
+                                <p class="p_20">
+                                    CO-EXIST
+                                </p>
+                                <p>
+                                    '공존하는'이라는 뜻을 담고 있습니다. <br>
+                                    저희 공존하는 미술관의 핵심 가치와 비전인 <br>
+                                    자연과 생물, 예술. <br>
+                                    아름답고 무용한 것들이 공존하길 바란다는 <br>
+                                    마음을 담았습니다.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="p_20">
+                                    Color
+                                </p>
+                                <p>
+                                    자연스러운 컬러 변화로 <br>
+                                    시각적 흐름이 이루어질 수 있도록 했습니다.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="p_20 p_16">
+                                    Line, Face, Straight Line, <br>
+                                    Curve
+                                </p>
+                                <p>
+                                    선과 면, 곡선과 직선이 어우러져 <br>
+                                    공존한다는 것을 표현했습니다.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="brandcolor_wrap"> <!-- 높이 -->
+                        <p class="title2">
+                            BRAND COLOR
+                        </p>
+                        <div class="brandcolor"> <!-- 높이/background color/box shadow:hover -->
+                            <ul class="main_color">
+                                <li>
+                                    <p class="p_20">
+                                        Main Color
+                                    </p>
+                                    <p>
+                                        비슷하지만 명도를 조절해서 <br>
+                                        편안하면서도 서로 다른 두 색이 <br>
+                                        공존하며 어우러진다는 것을 표현했습니다.
+                                    </p>
+                                </li>
+                                <li class="color_margin">
+                                    <div class="main_color1"></div>
+                                    <ul class="color">
+                                        <li class="p_20">
+                                            #ffe49c
+                                        </li>
+                                        <li>
+                                            C 1/ M 9/ Y 46/ K 0 <br>
+                                            R 255/ G 228/ B 156
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="main_color2"></div>
+                                    <ul class="color">
+                                        <li class="p_20">
+                                            #241315
+                                        </li>
+                                        <li>
+                                            C 63/ M 73/ Y 65/ K 79 <br>
+                                            R 36/ G 19/ B 21
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub_color">
+                                <li>
+                                    <p class="p_20">
+                                        Sub Color
+                                    </p>
+                                    <p>
+                                        main color 두가지와 <br>
+                                        자연스러운 흐름으로 이어지면서도 <br>
+                                        공존할 수 있는, 비슷하지만 다른 두 색을 <br>
+                                        선정해 시각적으로 편안함을 주었습니다.
+                                    </p>
+                                </li>
+                                <li class="color_margin2">
+                                    <div class="sub_color1"></div>
+                                    <ul class="color">
+                                        <li class="p_20">
+                                            #fac382
+                                        </li>
+                                        <li>
+                                            C 1/ M 25/ Y 54/ K 0 <br>
+                                            R 250/ G 195/ B 130
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="sub_color2"></div>
+                                    <ul class="color">
+                                        <li class="p_20">
+                                            #f69f71
+                                        </li>
+                                        <li>
+                                            C 1/ M 45/ Y 58/ K 0 <br>
+                                            R 246/ G 159/ B 113
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>							
+            <div id="Board02" class="box1_2	board" style="display:none;"> <!-- background image -->
+                <div class="overview"> <!-- 가운데 정렬 -->
+                    <div class="visit_01"> <!-- 높이 -->
+                        <div class="box_01"> <!-- 높이/border -->
+                            <p class="title3">
+                                관람안내
+                            </p>
+                            <ul class="explain_01">
+                                <li>전시장 관람 환경과 작품 보호를 위하여 전시장 입장 인원 제한 및 발권이 조기 마감될 수 있으니 양해 바랍니다.</li>
+                                <li>전시와 관련된 모든 사항은 작가와의 협의가 필요함에 따라 개인적 도슨트, 사설 그룹 교육 등의 무단 시행을 금지하오니 양해 바랍니다.</li>
+                                <li>전시 작품에 대한 이해를 도울 수 있도록 “오디오 가이드”를 운영하고 있습니다.</li>
+                                <li>공존하는 미술관 홈페이지 > “전시”에서 “오디오 가이드”를 들을 수 있습니다.</li>
+                                <li>네이버 “오디오 클립”에서도 들을 수 있습니다.</li>
+                            </ul>
+                        </div>
+                        <div class="box_02_wrap">
+                            <div class="box_02"> <!-- 높이/border/float left -->
+                                <p class="title3">
+                                    관람시간
+                                </p>
+                                <ul class="explain_02">
+                                    <li>화~일 : <span class="blue">10:00~18:00</span></li>
+                                    <li>휴관일 : <span class="blue">월요일(월요일이 공휴일이면 화요일 휴관), 1월 1일</span></li>
+                                </ul>
+                                <p class="explain_02_p">※입장은 전시 종료 30분전 마감됩니다.</p>
+                                <p>※전시작품 교체 등에 따른 임시휴관일은 별도 공지합니다.</p>
+                            </div>
+                            <div class="box_03"> <!-- 높이/border/float left -->
+                                <p class="title3">
+                                    관람요금
+                                </p>
+                                <ul class="explain_03">
+                                    <li>
+                                        <span class="blue">무료(기획전ㆍ특별전 등 일부 전시 유료)</span> <br>
+                                        - 기획ㆍ특별전은 전시에 따라 별도의 관람료가 책정됩니다.</li>
+                                    <li>
+                                        <span class="blue">관람료 면제대상</span> <br>
+                                        - 보호자 동반 7세 미만의 어린이, 65세 이상 경로 <br>
+                                        - 장애인, 국가유공자, 독립유공자, 다자녀가정 등 (관련증 소지자) <br>
+                                        ※ 자세한 사항은 미술관 운영 조례 제5조의2항 참조
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box_04"> <!-- 높이/border/float left -->
+                            <p class="title3">
+                                주차안내
+                            </p>
+                            <ul class="explain_04">
+                                <li>
+                                    주차요금 <br>
+                                    <span class="blue">유료('19.8.1.~)</span> <br>
+                                    <span class="blue">10분당 100원(1일 2,400원)</span> <br>
+                                    (대형, 소형 동일)
+                                </li>
+                                <li>
+                                    주차장 이용시간 <br>
+                                    - 오전 9시 ~ 오후 7시까지 <br>
+                                    - (본관 연장운영일은 오후 10시까지 운영)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box_05"> <!-- 높이/border/float left -->
+                            <img src="images/sub_01/visit/museum01.jpg" alt="museum01">
+                        </div>
+                    </div>
+                    <div class="visit_02"> <!-- 높이 -->
+                        <div class="box_06"> <!-- 높이 -->
+                            <img src="images/sub_01/visit/museum02.jpg" alt="museum02">
+                        </div>
+                        <div class="box_07_wrap"> <!-- 높이/background color -->
+                            <div class="box_07">
+                                <p class="title3">
+                                    오시는 길
+                                </p>
+                                <ul class="explain_05">
+                                    <li>
+                                        <span class="blue">주소</span> <br>
+                                        부산광역시 해운대구 APEC로 58 공존하는 미술관
+                                    </li>
+                                    <li>
+                                        <span class="blue">전화</span> <br>
+                                        0507 1404 2602
+                                    </li>
+                                    <li>
+                                        <span class="blue">대표 조희정</span> <br>
+                                        010 4256 1565
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box_08">
+                                <p class="title3">
+                                    대중교통 이용
+                                </p>
+                                <div class="explain_06_float">
+                                    <span class="blue">버스</span>
+                                    <ul class="explain_06">
+                                        <li>
+                                            벡스코 : 31, 39, 40, 63, 100, 100-1, <br> 
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;115-1, 141, 181, 200, 307
+                                        </li>
+                                        <li>
+                                            올림픽교차로 : 31, 39, 40, 63, 100, 100-1, <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;115-1, 141, 181, 200, 1001
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="explain_07_float">
+                                    <span class="blue explain_07_title">도시철도</span>
+                                    <ul class="explain_07">
+                                        <li>
+                                            도시철도 2호선 벡스코(공존하는 미술관)역 (⑤번 출구) 하차, <br> 
+                                            공존하는 미술관까지 약 100m 거리임.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>					
+            </div>
+            <div id="Board03" class="box1_3	board" style="display:none;"> <!-- 가운데 정렬 -->
+                <p class="title2 title4">
+                    Permanent Exhibition
+                </p>
+                <div class="permanent_museum">
+                    <img src="images/sub_01/information/museum.png" alt="museum">
+                </div>
+                <p class="permanent_explain">
+                    상설전은 공존하는 미술관의 소장품으로 이루어진 전시로, '아름다운 무용함'을 컨셉으로 <br>
+                    예술과 디자인 작품들을 편안하게 감상할 수 있습니다. <br>
+                    세계적인 작가의 회화, 조각, 사진, 설치, 영상 등 다양한 장르의 컨템포러리 작품과 더불어 가구와 조명, 거울 등 <br>
+                    디자인 작품들이 일상생활 공간 같은 전시장에서 공존하고 어우러져 펼쳐집니다.
+                </p> 
+                <ul class="museum_space">
+                    <li>
+                        <p class="title2 title4">
+                            Jean Prouve Room
+                        </p>
+                        <img src="images/sub_01/information/museum 01.jpg" alt="01">
+                    </li>
+                    <li>
+                        <p class="title2 title4">
+                            Library
+                        </p>
+                        <img src="images/sub_01/information/museum 02.jpg" alt="02">
+                    </li>
+                    <li>
+                        <p class="title2 title4">
+                            Lounge
+                        </p>
+                        <img src="images/sub_01/information/museum 03.jpg" alt="03">
+                    </li>
+                </ul>		
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_wrap"> <!-- background color -->
+        <div class="footer"> <!-- 가운데 정렬 -->
+            <h1 class="vertical_logo"> <!-- float left -->
+                <img src="images/footer/logo.png" alt="logo">
+            </h1>
+            <div class="footer_text"> <!-- float left -->
+                <ul class="footer_gnb">
+                    <li><a href="sub01_index.html">ABOUT US</a></li>
+                    <li><a href="sub02/sub02_index.html">EXHIBITION</a></li>
+                    <li><a href="sub03_index.html">COLLECTION</a></li>
+                    <li><a href="sub04/sub04_index.html">SHOP</a></li>
+                </ul>
+                <ul class="footer_util">
+                    <li><a href="javascript:return false;">이용약관</a></li>
+                    <li><a href="javascript:return false;">개인정보취급방침</a></li>
+                    <li><a href="javascript:return false;">이메일무단수집거부</a></li>
+                    <li><a href="javascript:return false;">문의하기</a></li>
+                    <li><a href="javascript:return false;">멤버쉽카드등록</a></li>
+                </ul>
+                <ul class="footer_text2">
+                    <li>
+                        부산광역시 해운대구 APEC로 58 공존하는 미술관 <br>
+                        0507 1404 2602 <br>
+                        010 4256 1565 <br>
+                        대표 조희정
+                    </li>
+                    <li>
+                        홈페이지의 모든 내용들은 공존하는 미술관 허락없이 무단 복제가 불가합니다. <br>
+                        Copyright ⓒ 2023, Co-Exist Museum of Art. All rights reserved.
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer_icon"> <!-- position -->
+                <li>
+                    <a href="https://ko-kr.facebook.com/"><img src="images/footer/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><img src="images/footer/instagram.png" alt="instagram"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=ko"><img src="images/footer/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/"><img src="images/footer/youtube.png" alt="youtube"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="top_btn">
+        <a href="sub01_index.html#header_wrap">TOP</a>
+    </p>
+
+    <script>
+        $('.top_btn').hide();       
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('.top_btn').fadeIn();
+            } else {
+                $('.top_btn').fadeOut();
+            }
+        });
+        $(".top_btn").click(function() {
+            $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+                // return false;
+         });
+    </script>
+</body>
+</html>
